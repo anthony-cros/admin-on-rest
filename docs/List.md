@@ -82,7 +82,7 @@ You can replace the list of default actions by your own element using the `actio
 
 ```jsx
 import { CardActions } from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
+import FlatButton from 'material-ui/FlatButton'; // notice that this is imported from material-ui, unlike say CreateButton
 import NavigationRefresh from 'material-ui/svg-icons/navigation/refresh';
 import CreateButton from '../button/CreateButton';
 
